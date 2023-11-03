@@ -1,0 +1,28 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
+button{
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: #718093;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.add:hover{
+    background-color: #3498db;
+}
+
+.sub:hover{
+    background-color: #c0392b;
+}
